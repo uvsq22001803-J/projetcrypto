@@ -1,0 +1,114 @@
+
+
+
+
+
+
+indices:
+ 
+ modulo 26 =  alphabet = rang des lettres  mot de passe utilisé il a servie a chiffré dans un premier temps le rang des lettres 
+
+clé qui servait a influé sur le rang de tes lettres 
+
+(ou sinon influe dirrectement) 
+
+________________________________________________________________________________________________________________________________________________________________________________
+
+travail de recherche non commenté
+
+
+dceuq e n'ehfp cg p'kyhhep uqfw cgiy citudm c gzudiq ni ezhd px c jhptv ep cggsht. kg hdtymdt xdzei gdx rzyq wir mvzxpw, cifcchdb znwd ccyw wy lkcsht, dp isgd uqfw wy ?
+bravo a        le                           a                   a                   le                                                        le de      le de 
+
+dceuq  d = 3 - 2 = 1 ---> b 
+
+c = 2 - 11 = 26 - 9= 17 --> r
+
+e = 4 - 4 = 0 --> a 
+
+u = 20 -25 = 26 - 5 = 21 --> v=
+
+q = 16 - 2 = 14 --> o 
+
+clé = clez -----------------> bravo <- clezc = dceuq 
+
+dceuq e n'ehfp cg p'kyhhep uqfw cgiy citudm c gzudiq ni ezhd px c jhptv ep cggsht. kg hdtymdt xdzei gdx rzyq wir mvzxpw, cifcchdb znwd ccyw wy lkcsht, dp isgd uqfw wy ?
+clezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezclezc
+
+hypothèses du motif de codage:
+
+clezc(l)e(z)c hypothèse 4 (espaces) 
+clezc l e z hypothèse 1   fausse 
+clezc c c clez hypothèse 2 fausse 
+clezc c c lezc hypothèse 3 fausse 
+
+
+vérification des hypothèses
+
+a = 0
+b = 1
+c = 2
+d = 
+
+
+
+d = 3 - 1 = 2 ---> c
+
+
+a= 0 c=2 l=11 e=4 z = 25 (0,25)
+
+3-2 = 1 = b 
+
+
+
+
+e = 4 - 11 = 26-7 = 19 ---> t 
+
+e = 4 - 2 = 2 --> d 
+
+donc hypothèse 1 fausse 
+
+n = 13 - 4 = 9 -->j
+n = 13 - 2 = 11 -->
+
+e = 4 - 25 = 26 - 21 = 5 --> f 
+
+hypothèse 3 fausse 
+
+bravo l 
+
+e = 4 -25 = 26 -21 = 25 
+
+e = 4 - 2 = 0 -->  = d
+
+e = 4 - 11 = 7 --> h
+
+h = 7 - 4 = 3 --> d 
+
+
+donc hypothèse 2 fausse 
+
+e = 4 
+
+a = 0
+
+ d = 3 - 2 = 1 ---> b
+c = 2 
+
+e = 4
+0 = a 
+
+
+
+
+n = 13
+
+l = 11
+
+13 - 11 = 2 = c
+
+
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+apres 2h de decriptage a la main apres 17 tentative de creer un programe me permettant de decoder un texte avec cette clef voici la solution
+
+bravo a l'aide de l'indice vous avez reussi a casser ce code et a finir ce devoir. le dernier texte est pour les braves, regardez vous dans un miroir, en etes vous un ?

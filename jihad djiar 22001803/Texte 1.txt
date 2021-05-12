@@ -1,0 +1,38 @@
+kd oqnbgzhm ehbghdq ztqz tm bncd ozq rtarshstshnm zkogzadshptd: bgzptd kdssqd drs qdlokzbdd ozq tmd ztsqd. tshkhrdq kz eqdptdmbd cdr kdssqdr ontq cdbncdq kd ldrrzfd.
+
+En observant le premier texte on observe une fréauence élevé et regulière de certaines lettres, je m'était donc posé la quetsion de savoir si le chiffagre était un chiffrage type cesar
+ou par substitution..... mais je me suis rendue compte que le codage cesar était aussi un codage par subtitution du coup j'ai programmer un petit programme me permettant de tester toutes 
+les clé possible pour le codage cesar 
+
+1) le code en question 
+_________________________________________________________________________________________________________________________________________________
+liste=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+for x in range(len(liste)):    
+    liste.append(liste[x])
+    
+    
+message = 
+clef = int(input('Entrez une clé ( entre 1 et 25 ) : '))  
+
+
+def chiffrage_lettre(lettre,liste,clef):
+    for i in range(len(liste)):
+        if lettre==' ':      
+            return ' '
+        elif liste[i]==lettre:
+            return str(liste[i+clef])
+    return '?'  
+
+
+message_chiffré = str()
+
+for lettre in message:
+    message_chiffré += chiffrage_lettre(lettre,liste,clef)
+    
+    
+print(message_chiffré)
+________________________________________________________________________________________________________________________________________________________
+
+la réponse avec une clé de 1:
+
+le prochain fichier aura un code par substitution alphabetique: chaque lettre est remplacee par une autre. utiliser la frequence des lettres pour decoder le message.

@@ -1,0 +1,28 @@
+gx qosvlnkd wkvlkxo xiu vscx qno yd fsu cx qniix cx unkggx kdvsddyx xu vsdukxdu g'kdckvx. gxi gxuuoxi cy fsu cx qniix qxofxuuxdu cx cxvngxo gxi gxuuoxi cy fxiinmx sokmkdng fscygs 26. ixygxi gxi gxuuoxi cx n n a isdu vlkwwoxxi.
+
+
+apres avoir passé le texte dans le programme de déchiffrage cesare je vois que aucune clé ne permet de dechiffré ce code je suis donc passé par une methode par substitution, j'ai d'abbord regardé la fréauence des lettres dan la 
+phrase pour ensuite en deduire a la main la solution 
+
+le programme en question : 
+________________________________________________________________________________________________________________________________________________________________
+
+
+texte="qxofxuuxdu cx cxvngxo gxi gxuuoxi cy fxiinmx sokmkdng fscygs 26. ixygxi gxi gxuuoxi cx n n a isdu vlkwwoxxi."
+
+liste=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+def frequenceLettre(lettre,texte):
+    compteur=0
+    for x in texte:
+        if x==lettre:
+            compteur=compteur+1
+    return compteur/len(texte)
+
+print(frequenceLettre("x",texte))
+
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+la solution:
+
+LE PROCHAIN FICHIER EST CODE PAR UN MOT DE PASSE DE TAILLE INCONNUE ET CONTIENT L'INDICE. LES LETTRES DU MOT DE PASSE PERMETTENT DE DECALER LES LETTRES DU MESSAGE ORIGINAL MODULO 26. SEULES LES LETTRES DE A A F SONT CHIFFREES.
